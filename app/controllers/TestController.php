@@ -3,11 +3,13 @@
 class TestController extends Controller {
 
 
-	public function two(){
+	public function one(){
 	}
 
-	public function one(){
-
-
+	public function two(){
+	}
+	public function three(){
+	}
+	public function four(){
 	}
 }
