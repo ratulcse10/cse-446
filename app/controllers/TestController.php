@@ -15,7 +15,16 @@ class TestController extends Controller {
 	}
 
 	public function 8(){
+	}
+
+	public function one(){
+	}
 
 
+	public function two(){
+	}
+	public function three(){
+	}
+	public function four(){
 	}
 }
