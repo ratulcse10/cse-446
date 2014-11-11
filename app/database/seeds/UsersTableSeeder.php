@@ -9,6 +9,7 @@ class UsersTableSeeder extends Seeder {
         $users = array(
         	array(
                 'email'    =>  'admin@sust.edu',
+                'name'    =>  'Admin',
                 'password'      =>  Hash::make('admin'),
 
         		'role_id'	    =>	1,
@@ -18,6 +19,7 @@ class UsersTableSeeder extends Seeder {
         	),
             array(
                 'email'    =>  'faculty@sust.edu',
+                'name'    =>  'Faculty',
                 'password'      =>  Hash::make('faculty'),
                 'role_id'       =>  3,
                 
@@ -26,6 +28,7 @@ class UsersTableSeeder extends Seeder {
             ),
             array(
                 'email'    =>  'student@sust.edu',
+                'name'    =>  'Student',
                 'password'      =>  Hash::make('student'),
                 
                 'role_id'       =>  2,
@@ -35,6 +38,7 @@ class UsersTableSeeder extends Seeder {
             ),
              array(
                 'email'    =>  'cr@sust.edu',
+                'name'    =>  'CR',
                 'password'      =>  Hash::make('cr'),
                 
                 'role_id'       =>  4,
