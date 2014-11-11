@@ -22,12 +22,12 @@ class UsersTableSeeder extends Seeder {
                 'role_id'       =>  3,
                 
                 'created_at'    =>  date('Y-m-d H:i:s'),
+
                 'updated_at'    =>  date('Y-m-d H:i:s')
             ),
             array(
                 'email'    =>  'student@sust.edu',
                 'password'      =>  Hash::make('student'),
-                
                 'role_id'       =>  2,
                 
                 'created_at'    =>  date('Y-m-d H:i:s'),
@@ -36,7 +36,6 @@ class UsersTableSeeder extends Seeder {
              array(
                 'email'    =>  'cr@sust.edu',
                 'password'      =>  Hash::make('cr'),
-                
                 'role_id'       =>  4,
                 
                 'created_at'    =>  date('Y-m-d H:i:s'),
