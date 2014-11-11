@@ -2,7 +2,7 @@
 
 class TestController extends Controller {
 
-	public function hello(){
+	public function one(){
 
 	}
 }
