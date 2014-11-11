@@ -16,7 +16,7 @@ class CreateRolesTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('role_title');
-			$table->boolean('system_delete');
+			
 			
 			
 		});
