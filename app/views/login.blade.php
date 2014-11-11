@@ -41,11 +41,20 @@
 		                </span>
             		</label>
                     {{ Form::submit('Log in', array('class' => 'btn btn-lg btn-login btn-block')) }}
+
+                    <div class="registration">
+                        Don't have an account yet?
+                        <a href="{{ URL::route('register') }}">
+                            Create an account
+                        </a>
+                    </div>
         		</div>
 
 				
 
       		{{ Form::close() }}
+
+            
 
             <!--  Modal -->
 
@@ -73,8 +82,10 @@
                </div>
                {{ Form::close() }}
                <!-- modal -->
+                
     	</div>
 
+       
     <!-- js placed at the end of the document so the pages load faster -->
     {{ HTML::script('js/jquery.js') }}
   	{{ HTML::script('js/bootstrap.min.js') }}

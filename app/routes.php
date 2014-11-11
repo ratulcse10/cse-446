@@ -18,6 +18,8 @@ Route::controller('password', 'RemindersController');
 Route::group(['before' => 'guest'], function (){
 	Route::get('login', ['as'=>'login','uses' => 'PublicController@login']);
 	Route::post('login', array('uses' => 'PublicController@doLogin'));
+	Route::get('register', ['as'=>'register','uses' => 'PublicController@register']);
+
 });
 
 Route::group(array('before' => 'auth'), function(){

@@ -66,4 +66,9 @@ class PublicController extends BaseController{
 		return Redirect::route('login')
 							->with('success', 'You have successfully logged out');
 	}
+
+	public function register(){
+		return View::make('register')
+						->with('title', 'Register');
+	}
 }
