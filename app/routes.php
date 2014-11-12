@@ -25,4 +25,7 @@ Route::group(['before' => 'guest'], function (){
 Route::group(array('before' => 'auth'), function(){
 	Route::get('logout', ['as' => 'logout', 'uses' => 'PublicController@logout']);
 	Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
+
+	//Batch
+	Route::get('batch', array('as' => 'batch', 'uses' => 'BatchController@index'));
 });
