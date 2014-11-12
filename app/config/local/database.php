@@ -23,7 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'sust_admission',
+			'database'  => 'cse446',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
